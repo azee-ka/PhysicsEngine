@@ -2,8 +2,8 @@
 
 from src.model.vector import Vector
 from src.model.particle import Particle
-from simulation import simulate
-from visualization import visualize
+from src.simulation import simulate
+from src.visualization import visualize
 
 def main():
     particle = Particle(Vector(400, 300), Vector(0, 0), Vector(0, 0))
