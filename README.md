@@ -1,10 +1,10 @@
 # Physics Engine
 
-A simple physics engine written in Python using Pygame. The engine provides a framework for simulating the motion of particles based on Newtonian physics principles.
+A simple physics engine written in Python using Pygame. The engine provides a framework for simulating the motion of particles based on Newtonian physics principles in a 3D environment.
 
 ## Features
 
-- Simulates the motion of particles in a 2D environment
+- Simulates the motion of particles in a 3D environment
 - Supports basic physics principles such as gravity, friction, and collisions
 - Provides a visualization of the particle motion using Pygame
 
