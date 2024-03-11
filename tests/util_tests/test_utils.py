@@ -1,7 +1,7 @@
 # tests/test_utils.py
 import unittest
 import numpy as np
-from core.utils import normalize
+from src.utils import normalize
 
 class TestUtils(unittest.TestCase):
     def test_normalize(self):

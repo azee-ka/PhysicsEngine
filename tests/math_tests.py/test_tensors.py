@@ -1,7 +1,7 @@
 # tests/test_tensors.py
 import unittest
 import numpy as np
-from core.math.tensors import tensor_contraction, tensor_addition, tensor_multiplication
+from src.core.math.tensors import tensor_contraction, tensor_addition, tensor_multiplication
 
 class TestTensors(unittest.TestCase):
     def test_tensor_contraction(self):

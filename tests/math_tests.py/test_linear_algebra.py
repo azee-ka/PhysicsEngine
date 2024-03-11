@@ -1,7 +1,7 @@
 # tests/test_linear_algebra.py
 import unittest
 import numpy as np
-from core.math.linear_algebra import dot_product, cross_product, vector_magnitude
+from src.core.math.linear_algebra import dot_product, cross_product, vector_magnitude
 
 class TestLinearAlgebra(unittest.TestCase):
     def test_dot_product(self):

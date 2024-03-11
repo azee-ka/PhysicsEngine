@@ -1,6 +1,6 @@
 # tests/test_objects.py
 import unittest
-from core.scene.objects.objects import Object
+from src.scene.objects import Object
 
 class TestObject(unittest.TestCase):
     def test_object_update(self):
