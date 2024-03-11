@@ -3,9 +3,10 @@
 import pygame
 import sys
 from pygame.locals import *
-from src.model.particle import Particle
+from .model.vector import Vector
+from .model.particle import Particle
 
-def visualize(particle):
+def visualize():
     # Initialize Pygame
     pygame.init()
 
@@ -21,6 +22,8 @@ def visualize(particle):
     # Create a clock object to control the frame rate
     clock = pygame.time.Clock()
 
+    particle = Particle((Vector(400, 30, 0)), (Vector(0, 0, 0)), (Vector(0, 0, 0)))  # Create particle instance here
+
     # Simulation loop
     while True:
         for event in pygame.event.get():
@@ -31,6 +34,13 @@ def visualize(particle):
         # Clear the screen
         window.fill(BLACK)
 
+        # Apply forces and update particle
+        particle.apply_force(Vector(0, 0.1, 0), 600)  # Apply gravity
+        particle.update()
+
+        # Debugging
+        print(f"Particle Position: ({particle.position.x}, {particle.position.y})")
+
         # Draw the particle
         pygame.draw.circle(window, WHITE, (int(particle.position.x), int(particle.position.y)), 5)
 
@@ -39,3 +49,6 @@ def visualize(particle):
 
         # Cap the frame rate
         clock.tick(60)
+
+if __name__ == "__main__":
+    visualize()
