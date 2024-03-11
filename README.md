@@ -17,11 +17,7 @@ A simple physics engine written in Python using Pygame. The engine provides a fr
 
 ### Installation
 
-1. Clone the repository:
-
-   ```sh
-   git clone https://github.com/your-username/physics-engine.git
-   
+1. Clone the repository:   
 2. Install the required dependencies:
 
 ### Usage
