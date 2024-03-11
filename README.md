@@ -17,8 +17,10 @@ A simple physics engine written in Python using Pygame. The engine provides a fr
 
 ### Installation
 
-1. Clone the repository:   
+1. Clone the repository.  
 2. Install the required dependencies:
+   ''sh
+   pip install -r requirements.txt
 
 ### Usage
 
