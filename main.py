@@ -1,9 +1,9 @@
 # main.py
 
-from src.model.vector import Vector
-from src.model.particle import Particle
-from src.simulation import simulate
-from src.visualization import visualize
+from src1.model.vector import Vector
+from src1.model.particle import Particle
+from src1.simulation import simulate
+from src1.visualization import visualize
 import threading
 
 def main():
